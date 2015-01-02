@@ -2,5 +2,6 @@
 
 pacman -Syy;
 
-pacman -S git irssi vim docker nodejs;
+pacman -S git irssi vim docker nodejs chromium \
+	bash-completion;
 

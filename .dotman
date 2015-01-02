@@ -3,3 +3,6 @@ tint2rc	/home/tim/.config/tint2/tint2rc
 user-dirs.dirs	/home/tim/.config/user-dirs.dirs
 .vimrc	/home/tim/.vimrc
 autostart	/home/tim/.config/openbox/autostart
+rc.xml	/home/tim/.config/openbox/rc.xml
+Preferences.sublime-settings /home/tim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+sublime-keymap /home/tim/.config/sublime-text-3/Packages/User/keymap

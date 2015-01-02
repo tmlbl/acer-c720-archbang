@@ -3,7 +3,7 @@
 #---------------------------------------------
 # For more information about tint2, see:
 # http://code.google.com/p/tint2/wiki/Welcome
-# 
+#
 # ArchBang 2014 Version 0.1
 
 # Background definitions
@@ -16,8 +16,8 @@ border_color = #828282 0
 # ID 2 - task active
 rounded = 1
 border_width = 0
-background_color = #4B9484 30
-border_color = #4B9484 30
+background_color = #ADB3BA 30
+border_color = #ADB3BA 30
 
 # ID 3 - task
 rounded = 1
@@ -138,8 +138,6 @@ tooltip_font = Sans 9.0
 # Mouse
 mouse_middle = none
 mouse_right = toggle
-mouse_scroll_up = toggle
-mouse_scroll_down = iconify
 
 # Battery
 battery = 1

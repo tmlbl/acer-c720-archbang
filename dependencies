@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pacman -Syy;
+
+pacman -S git irssi vim docker nodejs;
+

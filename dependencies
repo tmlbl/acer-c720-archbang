@@ -2,6 +2,8 @@
 
 pacman -Syy;
 
+pacman -S --needed base-devel;
+
 pacman -S git irssi vim docker nodejs chromium \
 	bash-completion;
 

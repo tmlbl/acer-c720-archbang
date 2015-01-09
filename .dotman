@@ -7,3 +7,5 @@ rc.xml	/home/tim/.config/openbox/rc.xml
 Preferences.sublime-settings /home/tim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 skeymap	/home/tim/.config/sublime-text-3/Packages/User/keymap
 10-synaptics.conf	/etc/X11/xorg.conf.d/10-synaptics.conf
+.asoundrc	/home/tim/.asoundrc
+alsa.conf	/etc/modprobe.d/alsa.conf

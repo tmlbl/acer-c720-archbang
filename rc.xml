@@ -325,8 +325,8 @@ cases. -->
       </action>
     </keybind>
     <keybind key="W-space">
-      <action name="ShowMenu">
-        <menu>root-menu</menu>
+      <action name="Execute">
+        <command>~/.config/dmenu/dmenu-bind.sh</command>
       </action>
     </keybind>
     <keybind key="W-a">

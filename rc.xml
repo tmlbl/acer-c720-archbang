@@ -269,7 +269,7 @@ cases. -->
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>chromium www.archbang.org</command>
+        <command>/opt/tor/start-tor-browser www.duckduckgo.com</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
@@ -278,7 +278,7 @@ cases. -->
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>lxterminal</command>
+        <command>lxterminal -e fish</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>terminal</name>
@@ -348,21 +348,38 @@ cases. -->
       <action name="GrowToEdgeWest"/>
     </keybind>
     <keybind key="W-c">
-      <action name="MoveToCenter"/>
+      <action name="Execute">
+        <command>chromium</command>
+      </action>
     </keybind>
-    <keybind key="XF86AudioRaiseVolume">
+    <keybind key="W-s">
+      <action name="Execute">
+        <command>/opt/sublime_text_3/sublime_text</command>
+      </action>
+    </keybind>
+    <keybind key="W-F10">
       <action name="Execute">
         <command>amixer set Master 5%+ unmute</command>
       </action>
     </keybind>
-    <keybind key="XF86AudioLowerVolume">
+    <keybind key="W-F9">
       <action name="Execute">
         <command>amixer set Master 5%- unmute</command>
       </action>
     </keybind>
-    <keybind key="XF86AudioMute">
+    <keybind key="W-F8">
       <action name="Execute">
         <command>amixer set Master toggle</command>
+      </action>
+    </keybind>
+    <keybind key="W-F7">
+      <action name="Execute">
+        <command>xbacklight + 10</command>
+      </action>
+    </keybind>
+    <keybind key="W-F6">
+      <action name="Execute">
+        <command>xbacklight - 10</command>
       </action>
     </keybind>
     <keybind key="XF86ScreenSaver">

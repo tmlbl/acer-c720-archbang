@@ -1,17 +1,9 @@
 {
-	"auto_complete_commit_on_tab": false,
-	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Colorsublime-Themes/Blackboard.tmTheme",
-	"ensure_newline_at_eof_on_save": true,
+	"color_scheme": "Packages/Color Scheme - Default/SpaceCadet.tmTheme",
 	"font_size": 11,
-	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"remember_open_files": false,
-	"tab_size": 2,
-	"theme": "Soda Dark 3.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"theme": "Spacegray.sublime-theme"
 }

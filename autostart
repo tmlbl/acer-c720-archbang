@@ -3,7 +3,7 @@
 (sleep 1s && tint2) &
 
 # Set wallpaper
-(sleep 1s && feh --bg-scale $HOME/images/cabin.jpg)  &
+(sleep 1s && feh --bg-scale $HOME/images/plane.jpg)  &
 
 # Enable as required
 #xbacklight -set 100 &
@@ -13,3 +13,9 @@
 
 (sleep 2 && spacefm -d) &
 (sleep 3 && nm-applet) &
+
+# Touchpad settings
+sleep 4 && synclient FingerLow=10;
+synclient FingerHigh=10;
+synclient TapButton1=0;
+
